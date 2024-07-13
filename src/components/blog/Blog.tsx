@@ -57,6 +57,8 @@ const featuredPosts = [
   },
 ];
 
+
+// const posts = [post1];
 const posts = [post1, post2, post3];
 
 const sidebar = {
@@ -84,12 +86,12 @@ const sidebar = {
 };
 
 // TODO remove, this demo shouldn't need to reset the theme.
-const defaultTheme = createTheme();
+// const defaultTheme = createTheme();
 
 export default function Blog() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <CssBaseline />
+    // <ThemeProvider theme={defaultTheme}>
+      // <CssBaseline />
       <Container maxWidth="lg">
         <Header title="Blog" sections={sections} />
         <main>
@@ -110,10 +112,10 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
-    </ThemeProvider>
+    //   <Footer
+    //     title="Footer"
+    //     description="Something here to give the footer a purpose!"
+    //   />
+    // </ThemeProvider>
   );
 }
