@@ -57,9 +57,9 @@ const featuredPosts = [
   },
 ];
 
-
 // const posts = [post1];
-const posts = [post1, post2, post3];
+//@ts-ignore
+const posts :string[] = [post1, post2, post3];
 
 const sidebar = {
   title: 'About',
